@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>If/else</title>
+</head>
+<body>
+<script type="text/javascript">
+
+	 let capitalName = prompt(' Яка перша столиця України?', '');
+	 if (capitalName == 'Харків') {
+     alert(' Так, це вірно!');
+     } else {
+     alert(' Ви не знаєте? Перша столиця України-Харків!');
+     }
+
+     let userLogin = prompt('Введіть ваш логін', '');
+     if (userLogin == 'User') {
+     let userPass = prompt('Введіть ваш пароль', '');
+     if (userPass  == 'password')  {
+    alert( 'Ласкаво просимо!' );
+    } else if (userPass === null) { 
+    alert( 'Введення скасовано' );
+    } else {
+    alert( 'Пароль не вірний' );
+    }
+    } else if (userLogin === null) { 
+  alert( 'Введення скасовано' );
+    } else {
+  alert( 'Логін не вірний' );
+   }
+
+   let a = +prompt('Введіть число a', 0);
+   let b = +prompt('Введіть число b', 0);
+   let c = +prompt('Введіть число c', 0);
+
+       let D = b * b - 4 *a * c;
+       let x1=(-b + Math.sqrt(D)) / (2* a)
+       let x2=(-b - Math.sqrt(D)) / (2* a)
+       alert('D = ' + D);
+       if(D < 0)
+         alert('Коренів немає');
+
+       else if(D == 0)
+        alert(x1)
+      else if(D > 0){
+        alert(x1+' '+x2)
+      }
+       
+
+
+</script>
+</body>
+</html>

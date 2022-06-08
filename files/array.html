@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>array</title>
+	<style type="text/css">
+		body{
+			color: blue;
+			background-color:papayawhip;
+			font-size: 24px;
+			font-family: 'Black Ops One', cursive;
+		}
+	</style>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+</head>
+<body>
+<script type="text/javascript">
+
+let compliments=['cute','clever','nice','beautiful','intelligent','sociable'];
+let animals=['tiger','parrot','hamster','rat','fox','leopard']
+let number=prompt('How many compliments do you want?',100)
+for (let i = 1; i <=number; i++) {
+let rand=Math.floor(Math.random()*compliments.length);
+document.write(i+') You are so '+compliments[rand]+' as '+animals[rand]+'<br>' )
+}
+</script>
+</body>
+</html>

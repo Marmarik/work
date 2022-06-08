@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Цикли</title>
+</head>
+<body>
+<script type="text/javascript">
+	let min = +prompt("Введіть мінімальне значення діапазону", 20);
+    let max = +prompt("Введіть максимальне значення діапазону", 50);
+	let numberUser;
+	let numberX=32;
+	let count=0;
+	do{ numberUser = prompt('Вгадайте число від 20 до 50', 20);
+	count++;
+	if(numberUser==null){
+		alert('Вгадайте число');
+    }else if(+numberUser<numberX) {
+    	alert('Ваше число менше');
+    }else if(+numberUser>numberX){
+    	alert('Ваше число більше');
+    }else{
+    	alert('Бінго!Ви вгадали!'+numberX+' за спроб '+count++); }
+	} while (numberUser != numberX && numberUser != null);
+
+</script>
+</body>
+</html>

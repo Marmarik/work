@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>blocks</title>
+	<style type="text/css">
+		.first{
+			width: 300px;
+			height: 300px;
+			margin: auto;
+		}
+		.first{
+			background: radial-gradient(pink,blue,yellow,green);
+			border-radius: 100% 100%;
+			box-shadow: 10px 5px 5px blue;
+
+		}
+		img{
+			width: 200px;
+            height: 200px;
+            display: flex;
+            align-items: flex-end;
+
+		}
+		.second{
+			width: 300px;
+			height: 300px;
+		}
+		.second{
+			background: radial-gradient(circle at 50% 0,
+        rgba(255,0,0,.5),
+        rgba(255,0,0,0) 70.71%),
+      radial-gradient(circle at 6.7% 75%,
+        rgba(0,0,255,.5),
+        rgba(0,0,255,0) 70.71%),
+      radial-gradient(circle at 93.3% 75%,
+        rgba(0,255,0,.5),
+        rgba(0,255,0,0) 70.71%) beige;
+      box-shadow: 60px -16px peachpuff;
+      border-radius: 15px 50px 30px;
+			
+		}
+		.third{
+			width: 300px;
+			height: 300px;
+			margin-top: 20px;
+			margin-left: 200px;
+        
+		}
+		.third{
+			background: conic-gradient(at 0% 30%, blue 10%, yellow 30%, #1e90ff 50%);
+			box-shadow: 12px 12px 2px 1px yellow;
+            border-radius: 15px;
+		}
+		.fourth{
+			width: 300px;
+			height: 300px;
+            margin-top: 20px;
+            margin-left: 500px;
+		}
+		.fourth{
+			background: radial-gradient(pink,blue,violet);
+			box-shadow: 12px 12px 2px 1px rgba(0, 0, 255, .2);
+			border-radius: 15px 50px;
+		}
+		.img{
+			position: absolute;
+			transform: translate(-50%, -50%);
+	
+		}
+	
+		div.container{
+			position: relative;
+			height: 300px;
+			width: 600px;
+			margin-top: 20px;
+			
+		}
+		div.container{
+		background: radial-gradient(grey, white);	
+        border: 1px solid #000000;
+		}
+		img.displayed{
+			display: block;
+            margin-left: auto;
+            margin-right: auto;
+		}
+		div.container1{
+			position: relative;
+			height: 300px;
+			width: 600px;
+		   margin-top: 50px;
+			}
+		div.container1{
+		background: linear-gradient(to top, grey, 20%,white);	
+        border: 5px solid #000000;
+		}
+		div.container2{
+			position: relative;
+			height: 300px;
+			width: 600px;
+		   margin-top: 50px;
+		}
+
+		div.container2{
+		background: linear-gradient(grey,white);	
+        border: 5px dashed; #000000;
+		}
+		img.displayed2{
+			display: block;
+    margin-left: auto;
+    margin-right: 20px;
+    margin-top: 90px;
+
+		}
+       p.blocktext{
+       display: table-cell;
+    vertical-align: middle;
+        width: 400px;
+        height: 200px;
+       }
+		p.blocktext{
+       	background-color: white;
+       	
+       }
+       p.blocktext1{
+       	height: 10em;
+  display: flex;
+  align-items: center;
+  justify-content: center
+       }
+       p.blocktext1{
+       	background-color: white;
+       }
+
+	</style>
+</head>
+<body style="background-color: papayawhip;">
+<p style="background-color: yellow; font-size: 10mm;">Блоки</p>
+<div class="first">
+	<img src="https://i.imgur.com/xmgu2JZ.gif"></div>
+</div>
+<div class="second"></div>
+<div class="third"></div>
+<div class="fourth"></div>
+<DIV class="container">
+  <img class="displayed" src="https://phoneky.co.uk/thumbs/screensavers/down/cartoon-anime/tinytux_mqj631hr.gif">
+  </DIV>
+  <DIV class="container1">
+  <img class="displayed1" src="https://phoneky.co.uk/thumbs/screensavers/down/cartoon-anime/tinytux_mqj631hr.gif">
+</DIV>
+<DIV class="container2">
+  <img class="displayed2" src="https://phoneky.co.uk/thumbs/screensavers/down/cartoon-anime/tinytux_mqj631hr.gif">
+</DIV>
+ <p class="blocktext">Робота з текстом</p>
+ <p class="blocktext1">Робота з текстом</p>
+</body>
+</html>
